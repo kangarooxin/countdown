@@ -13,7 +13,7 @@
             interval: 10,//精确到秒时，输入1000即可
             print: 0
 		};
-		options = $.extend(defaults, options);
+		options = $.extend({}, defaults, options);
 
 		// trim zero
 		function trimZero(str) {
